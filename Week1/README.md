@@ -44,7 +44,7 @@ iface eth0 inet static
 ## Screenshots
 
 ### Project Creation
-![Project](project.png)
+![Project](3.png)
 
 ### Host Configuration
 ![Config](config.png)
@@ -53,5 +53,5 @@ iface eth0 inet static
 ![Console](console.png)
 
 ### Topology View
-![Topology](topology.png)
+![Topology](intro.png)
 
