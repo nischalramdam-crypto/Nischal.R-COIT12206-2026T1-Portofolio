@@ -71,8 +71,8 @@ iface eth0 inet static
 ### Ping View
 ![Ping](Ping-success-1to2.png)
 ![Ping](ping-failure.png)
-![Ping](Ping-success.png)
-![Ping](Ping-sucess-4to2.png)
+![Ping](ping-success.png)
+![Ping](ping-sucess-4to2.png)
 
 ---
 
