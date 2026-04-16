@@ -17,13 +17,13 @@ This project explores how Virtual Local Area Networks (VLANs) can be used to seg
 
 # Task 1: VLAN Configuration and Network Isolation
 
-![Task1 Network](projectcreate.png)
+![Task1 Network](1.png)
 
 ---
 
 ## Network Topology
 
-![Task1 Network](topology.png)
+![Task1 Network](2.png)
 
 The setup includes four hosts connected to a single Open vSwitch. At this stage, no router is present, meaning all communication depends entirely on VLAN configuration.
 
@@ -38,10 +38,10 @@ Each host was manually assigned an IP address within the same subnet:
 * Host3 → 10.10.1.103
 * Host4 → 10.10.1.104
 
-![Configuration](h1.png)
-![Configuration](h2.png)
-![Configuration](h3.png)
-![Configuration](h4.png)
+![Configuration](3.png)
+![Configuration](4.png)
+![Configuration](5.png)
+![Configuration](6.png)
 
 ---
 
@@ -61,14 +61,14 @@ ovs-vsctl set port eth4 tag=20
 
 This configuration ensures that devices are grouped logically rather than physically.
 
-![VLAN Setup](Setport.png)
+![VLAN Setup](7.png)
 
 ---
 
 ## Switch Verification
 
-![Task1 Ports](tag.png)
-![Task1 Ports](tag2nd.png)
+![Task1 Ports](8.png)
+![Task1 Ports](9.png)
 
 The screenshots confirm that VLAN tags have been successfully applied to the respective ports on the switch.
 
@@ -76,8 +76,8 @@ The screenshots confirm that VLAN tags have been successfully applied to the res
 
 ## Connectivity Testing
 
-![Task1 Ping](h1pingtoall.png)
-![Task1 ping](h4.png)
+![Task1 Ping](11.png)
+![Task1 ping](12.png)
 
 Testing was performed using the `ping` command to verify communication:
 
@@ -87,11 +87,6 @@ Testing was performed using the `ping` command to verify communication:
 This confirms that VLAN segmentation is functioning as expected.
 
 ---
-
-## ARP Behaviour Analysis
-
-![Task1 Ports](DifferentVLAN.png)
-![Task1 Ports](arp-a.png)
 
 ARP (Address Resolution Protocol) results further validated the isolation:
 
