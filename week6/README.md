@@ -8,7 +8,7 @@ In this week, I learned about how ARP works and how devices find each other in a
 
 ## Topology
 
-![Topology](image.png)
+![Topology](topology1.png)
 
 This network has two LANs connected using two routers. On the left side, there are HostA, HostB, HostC, and HostD. On the right side, there are Host1, Host2, Host3, and Host4.
 
@@ -18,7 +18,7 @@ This network has two LANs connected using two routers. On the left side, there a
 
 ### HostA
 
-![HostA](hostA.png)
+![HostA](hostA-config.png)
 
 HostA was given a static IP address in the network 10.10.10.0/24. It uses Router1 as its default gateway so it can communicate outside its network.
 
@@ -26,7 +26,7 @@ HostA was given a static IP address in the network 10.10.10.0/24. It uses Router
 
 ### HostB
 
-![HostB](hostB.png)
+![HostB](hostB-config.png)
 
 HostB is also in the same network as HostA but has a different IP address.
 
@@ -34,7 +34,7 @@ HostB is also in the same network as HostA but has a different IP address.
 
 ### HostC
 
-![HostC](hostC.png)
+![HostC](hostC-config.png)
 
 HostC was configured similarly, using the same subnet and gateway.
 
@@ -42,7 +42,7 @@ HostC was configured similarly, using the same subnet and gateway.
 
 ### HostD
 
-![HostD](hostD.png)
+![HostD](hostD-config.png)
 
 HostD is also part of the same LAN and follows the same configuration.
 
@@ -52,7 +52,7 @@ HostD is also part of the same LAN and follows the same configuration.
 
 ### Host1
 
-![Host1](host1.png)
+![Host1](host1-config.png)
 
 Host1 is in a different network, which is 10.10.20.0/24.
 
@@ -60,7 +60,7 @@ Host1 is in a different network, which is 10.10.20.0/24.
 
 ### Host2
 
-![Host2](host2.png)
+![Host2](host2-config.png)
 
 Host2 is also in the same network as Host1 but with a different IP.
 
@@ -68,7 +68,7 @@ Host2 is also in the same network as Host1 but with a different IP.
 
 ### Host3
 
-![Host3](host3.png)
+![Host3](host3-config.png)
 
 Host3 uses Router2 as its default gateway to communicate with other networks.
 
@@ -76,7 +76,7 @@ Host3 uses Router2 as its default gateway to communicate with other networks.
 
 ### Host4
 
-![Host4](host4.png)
+![Host4](host4-config.png)
 
 Host4 is configured in the same way and was checked using interface commands.
 
@@ -86,11 +86,11 @@ Host4 is configured in the same way and was checked using interface commands.
 
 ### Router1
 
-![Router1 Config](router1.png)
+![Router1 Config](router1-config.png)
 
 Router1 connects the left LAN to the middle network. IP forwarding was enabled so it can send packets between networks.
 
-![Router1 Check](router1.1.png)
+![Router1 Check](router1-check.png)
 
 This shows that the interfaces were set correctly.
 
@@ -98,11 +98,11 @@ This shows that the interfaces were set correctly.
 
 ### Router2
 
-![Router2 Config](router2.png)
+![Router2 Config](router2-config.png)
 
 Router2 connects the middle network to the right LAN. It also has IP forwarding enabled.
 
-![Router2 Check](router2.2.png)
+![Router2 Check](router2-chceck.png)
 
 This confirms the router interfaces are working properly.
 
