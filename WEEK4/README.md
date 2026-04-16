@@ -1,6 +1,6 @@
 # COIT12206 – Week 01 Portfolio
 
-## 👤 Student Details
+##  Student Details
 
 * Name: Nischal Ramdam
 * Student ID: 12316714
@@ -8,13 +8,13 @@
 
 ---
 
-## 🖥️ Network Setup
+##  Network Setup
 
 * Host1 & Host2 → Switch → Router → Host3
 
 ---
 
-## 🌐 Configuration
+##  Configuration
 
 ```bash
 # Host1
@@ -55,7 +55,7 @@ up sysctl net.ipv4.ip_forward=1
 
 ---
 
-## 💻 Commands
+##  Commands
 
 ```bash
 ip address show
@@ -65,9 +65,16 @@ ping 10.1.2.11
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-![Network](images/network.png)
-![Config](images/config.png)
-![Ping](images/ping.png)
-
+![Network](name.png)
+![Network](front.png)
+![Config](hhost3.png)
+![Config](host3.png)
+![Config](hostt.png)
+![Config](router.png)
+![Config](routerrestart.png)
+![Config](week6router.png)
+![Ping](host2.png)
+![Ping](pingh1-router.png)
+![Ping](host2.png)
