@@ -127,7 +127,7 @@ This confirms that VLANs are an effective method for controlling traffic flow an
 
 ## Network Topology
 
-![Task2 Network](topologyweek5.png)
+![Task2 Network](1.1.png)
 
 In this stage, a router is introduced into the network. The router is connected to the switch using a trunk link, allowing it to handle traffic from multiple VLANs.
 
@@ -147,7 +147,7 @@ ovs-vsctl set port eth4 tag=20
 * VLAN 10 → Host1 and Host2
 * VLAN 20 → Host3 and Host4
 
-![Task VLAN Setup](Tagsetandlist.png)
+![Task VLAN Setup](2.2t.png)
 
 ---
 
@@ -203,7 +203,7 @@ Enabling IP forwarding allows the router to pass traffic between VLANs.
 
 ## Router Verification
 
-![Router Config](routeripaddress1.png)
+![Router Config](3.3.png)
 
 The output confirms that VLAN interfaces were successfully created and assigned IP addresses, acting as gateways for each network.
 
@@ -211,10 +211,10 @@ The output confirms that VLAN interfaces were successfully created and assigned 
 
 ## Connectivity Testing
 
-![Task2 Ping](gatewaysamepingsuccessful.png)
-![Task2 Ping](h3-ping.png)
-![Task2 Ping](h4-ping.png)
-![Task2 Ping](pingfailedh1with2.104.png)
+![Task2 Ping](4.4.png)
+![Task2 Ping](5.5.png)
+![Task2 Ping](6.6.png)
+![Task2 Ping](8.8.png)
 
 Testing showed the following results:
 
@@ -227,7 +227,7 @@ Testing showed the following results:
 ---
 
 # wireshark
-![Task2 Ping](h3-ping.png)
+![Task2 Ping](9.9.png)
 
 ---
 
