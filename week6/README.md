@@ -102,7 +102,7 @@ This shows that the interfaces were set correctly.
 
 Router2 connects the middle network to the right LAN. It also has IP forwarding enabled.
 
-![Router2 Check](router2-chceck.png)
+![Router2 Check](router2-check.png)
 
 This confirms the router interfaces are working properly.
 
