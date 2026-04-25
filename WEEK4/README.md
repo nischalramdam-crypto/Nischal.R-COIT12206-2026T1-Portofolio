@@ -83,7 +83,7 @@ ping 10.1.2.11
 
 ## Objective
 
-This task demonstrates how Open Shortest Path First (OSPF) dynamically shares routing information between FRRouting (FRR) routers. It also shows how network paths automatically change when a link failure occurs, without requiring manual reconfiguration.
+This weekly task demonstrates how Open Shortest Path First (OSPF) dynamically shares routing information between FRRouting (FRR) routers, which also shows how network paths automatically change when a link failure occurs, without requiring manual reconfiguration.
 
 ---
 
@@ -134,7 +134,7 @@ write memory
 
 ### OSPF Neighbor Output
 
-This confirms that FRR1 successfully formed OSPF neighbor relationships with adjacent routers.
+Confirms that FRR1 successfully formed OSPF neighbor relationships with adjacent routers.
 
 ![Task 2 OSPF Neighbor](33.png)
 
@@ -142,7 +142,7 @@ This confirms that FRR1 successfully formed OSPF neighbor relationships with adj
 
 ### IP Route Table
 
-The routing table shows dynamically learned routes (marked with “O”), confirming that OSPF is functioning correctly.
+Table shows dynamically learned routes (marked with “O”), confirming that OSPF is functioning correctly.
 
 ![Task 2 IP Route](44.png)
 
@@ -150,7 +150,7 @@ The routing table shows dynamically learned routes (marked with “O”), confir
 
 ## Traceroute Before Link Failure
 
-Before disconnecting any link, traffic from Host1 to Host2 followed the shortest available path.
+Before traceroute disconnecting any link, traffic from Host1 to Host2 followed the shortest available path.
 
 ![Task 2 Traceroute Before](55.png)
 ![Task 2 Traceroute Before](frrr11.png)
