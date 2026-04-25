@@ -1,4 +1,4 @@
-# TCP/IP Configuration - Week 1
+# TCP/IP Configuration - Week 2
 
 ## Student Details
 - Name: Nischal Ramdam
@@ -58,7 +58,7 @@ iface eth0 inet static
 ### Host Configuration
 ![Config](Config-host1.png)
 ![Config](Config-host2.png)
-![Config](console-host3png)
+![Config](console3.png)
 ![Config](console-host4.png)
 
 ### Console Output
