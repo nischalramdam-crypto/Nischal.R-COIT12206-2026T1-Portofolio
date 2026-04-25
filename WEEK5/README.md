@@ -23,7 +23,7 @@ This project explores how Virtual Local Area Networks (VLANs) can be used to seg
 
 ## Network Topology
 
-![Task1 Network](2.png)
+![Task1 Network](222.png)
 
 The setup includes four hosts connected to a single Open vSwitch. At this stage, no router is present, meaning all communication depends entirely on VLAN configuration.
 
@@ -127,7 +127,7 @@ This confirms that VLANs are an effective method for controlling traffic flow an
 
 ## Network Topology
 
-![Task2 Network](1.1.png)
+![Task2 Network](1.11.png)
 
 In this stage, a router is introduced into the network. The router is connected to the switch using a trunk link, allowing it to handle traffic from multiple VLANs.
 
