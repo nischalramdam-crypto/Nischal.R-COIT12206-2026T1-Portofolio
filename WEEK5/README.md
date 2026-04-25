@@ -8,7 +8,7 @@ COIT12206 – TCP/IP Principles and Protocols
 
 # Project Overview
 
-This project explores how Virtual Local Area Networks (VLANs) can be used to segment a network and control communication between devices. The work is divided into two parts:
+This week 5 project explores how Virtual Local Area Networks (VLANs) can be used to segment a network and control communication between devices, where work is divided into two parts:
 
 * **Task 1:** Configuring VLANs and verifying network isolation
 * **Task 2:** Enabling communication between VLANs using a router
@@ -25,18 +25,18 @@ This project explores how Virtual Local Area Networks (VLANs) can be used to seg
 
 ![Task1 Network](222.png)
 
-The setup includes four hosts connected to a single Open vSwitch. At this stage, no router is present, meaning all communication depends entirely on VLAN configuration.
+Topology setup, which includes four hosts connected to a single Open vSwitch used in task 1. At this stage, no router , which mean all communication depends entirely on VLAN configuration.
 
 ---
 
 ## Host Addressing
 
-Each host was manually assigned an IP address within the same subnet:
+Each host 1 to 4 was manually assigned an IP address within the same subnet:
 
-* Host1 → 10.10.1.101
-* Host2 → 10.10.1.102
-* Host3 → 10.10.1.103
-* Host4 → 10.10.1.104
+* Host1 : 10.10.1.101
+* Host2 : 10.10.1.102
+* Host3 : 10.10.1.103
+* Host4 : 10.10.1.104
 
 ![Configuration](3.png)
 ![Configuration](4.png)
@@ -59,7 +59,7 @@ ovs-vsctl set port eth4 tag=20
 * VLAN 10 includes Host1 and Host2
 * VLAN 20 includes Host3 and Host4
 
-This configuration ensures that devices are grouped logically rather than physically.
+Configuration ensures that devices are grouped logically rather than physically.
 
 ![VLAN Setup](7.png)
 
@@ -70,7 +70,7 @@ This configuration ensures that devices are grouped logically rather than physic
 ![Task1 Ports](8.png)
 ![Task1 Ports](9.png)
 
-The screenshots confirm that VLAN tags have been successfully applied to the respective ports on the switch.
+Switch screenshots confirm that VLAN tags have been successfully applied to the respective ports on the switch.
 
 ---
 
@@ -79,16 +79,16 @@ The screenshots confirm that VLAN tags have been successfully applied to the res
 ![Task1 Ping](11.png)
 ![Task1 ping](12.png)
 
-Testing was performed using the `ping` command to verify communication:
+Ping testing was performed using the `ping` command to verify communication:
 
-* Devices within the **same VLAN** were able to communicate successfully
-* Devices in **different VLANs** could not communicate
+* Devices within the **same VLAN** were able to communicate successfully.
+* Devices in **different VLANs** could not communicate.
 
-This confirms that VLAN segmentation is functioning as expected.
+This connectivity test that confirms VLAN segmentation is functioning as expected.
 
 ---
 
-ARP (Address Resolution Protocol) results further validated the isolation:
+Address Resolution Protocol results further validated the isolation:
 
 * Within the same VLAN, MAC addresses were resolved correctly
 * Across VLANs, ARP requests failed, resulting in incomplete entries
