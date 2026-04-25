@@ -59,7 +59,7 @@ iface eth0 inet static
 ![Config](Config-host1.png)
 ![Config](Config-host2.png)
 ![Config](console3.png)
-![Config](console-host4.png)
+![Config](consolehost4.png)
 
 ### Console Output
 ![Console](ip-host1.png)
