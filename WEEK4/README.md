@@ -136,7 +136,7 @@ write memory
 
 This confirms that FRR1 successfully formed OSPF neighbor relationships with adjacent routers.
 
-![Task 2 OSPF Neighbor](3.png)
+![Task 2 OSPF Neighbor](33.png)
 
 ---
 
@@ -144,7 +144,7 @@ This confirms that FRR1 successfully formed OSPF neighbor relationships with adj
 
 The routing table shows dynamically learned routes (marked with “O”), confirming that OSPF is functioning correctly.
 
-![Task 2 IP Route](4.png)
+![Task 2 IP Route](44.png)
 
 ---
 
@@ -152,8 +152,8 @@ The routing table shows dynamically learned routes (marked with “O”), confir
 
 Before disconnecting any link, traffic from Host1 to Host2 followed the shortest available path.
 
-![Task 2 Traceroute Before](5.png)
-![Task 2 Traceroute Before](frrr1.png)
+![Task 2 Traceroute Before](55.png)
+![Task 2 Traceroute Before](frrr11.png)
 
 ---
 
@@ -161,7 +161,7 @@ Before disconnecting any link, traffic from Host1 to Host2 followed the shortest
 
 After stopping the NETem node, the original path became unavailable. OSPF automatically recalculated the route and redirected traffic through the alternate path.
 
-![Task 2 Traceroute After](7.png)
+![Task 2 Traceroute After](77.png)
 
 ---
 
