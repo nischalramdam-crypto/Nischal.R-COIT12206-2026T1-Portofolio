@@ -180,32 +180,29 @@ After stopping the NETem node, the original path became unavailable. OSPF automa
 
 ## Key Observations
 
-* OSPF dynamically exchanged routing information between routers.
-* Neighbor relationships were successfully established.
-* Routes marked with “O” indicate OSPF-learned paths.
-* When a link failure occurred, OSPF recalculated the best path automatically.
-* No manual configuration was required after the failure.
-
+* OSPF propagated routes information between routers.
+* Adjacency was formed.
+* Routes with an "O" next them indicate OSPF routes.
+* OSPF automatically recomputed the best path after a link failure.
+* There was no need to reconfigure after the failure.
 ---
 
 ## Explanation
 
-OSPF is a dynamic routing protocol that uses link-state information to determine the best path between networks. Each router shares its routing information with neighbors and calculates the shortest path using cost metrics.
+OSPF is a dynamic link-state routing protocol. Routers exchange information with each other and determine the best path based on cost.
 
-The use of **passive-interface** ensures that OSPF updates are not sent to host networks, improving efficiency and security.
+Using the **passive-interface** command prevents OSPF updates from being sent to host subnets, enhancing efficiency and security.
 
-When the link failure was simulated using NETem, OSPF detected the topology change and recomputed the routing table, allowing traffic to continue through an alternate path.
-
+The simulated link failure using NETem was detected by OSPF, which recalculated the routing table and re-routed the traffic via the alternate path.
 ---
 
 ## Conclusion
 
 This task successfully demonstrated:
 
-* Configuration and operation of OSPF dynamic routing
-* Establishment of OSPF neighbor relationships
-* Automatic route learning and updating
-* Network resilience through dynamic path recalculation
+* Setting up and running OSPF dynamic routing
+* Formation of OSPF adjacencies
+* Dynamic learning of routes
+* Adaptability to network changes and path re-calculation
 
-The results confirm that OSPF is highly efficient in maintaining connectivity in changing network conditions.
-
+The findings demonstrate that OSPF is very effective in providing network connectivity in dynamic environments.
