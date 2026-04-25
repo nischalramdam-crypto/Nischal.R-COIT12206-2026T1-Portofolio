@@ -8,7 +8,7 @@ COIT12206 – TCP/IP Principles and Protocols
 
 # Project Overview
 
-This week 5 project explores how Virtual Local Area Networks (VLANs) can be used to segment a network and control communication between devices, where work is divided into two parts:
+This week 5 project, which explores how Virtual Local Area Networks (VLANs) can be used to segment a network and control communication between devices. It work, where divided into two parts:
 
 * **Task 1:** Configuring VLANs and verifying network isolation
 * **Task 2:** Enabling communication between VLANs using a router
@@ -25,7 +25,7 @@ This week 5 project explores how Virtual Local Area Networks (VLANs) can be used
 
 ![Task1 Network](222.png)
 
-Topology setup, which includes four hosts connected to a single Open vSwitch used in task 1. At this stage, no router , which mean all communication depends entirely on VLAN configuration.
+Topology setup, which includes four hosts connected to a single Open vSwitch used in task 1. At this stage, no router connect , which mean all communication depends entirely on VLAN configuration.
 
 ---
 
@@ -84,7 +84,7 @@ Ping testing was performed using the `ping` command to verify communication:
 * Devices within the **same VLAN** were able to communicate successfully.
 * Devices in **different VLANs** could not communicate.
 
-This connectivity test that confirms VLAN segmentation is functioning as expected.
+This ping connectivity test that confirms VLAN segmentation is functioning as expected.
 
 ---
 
