@@ -9,12 +9,12 @@
 ---
 
 ## Project Overview
-This project demonstrates a basic TCP/IP configuration using GNS3. A single host (Host1) is configured with a static IP address and verified using console commands.
+This weekly  project demonstrates a basic TCP/IP configuration concept using GNS3. In this configuration, single host (Host1) is configured with a static IP address and verified using console commands.
 
 ---
 
 ## Network Topology
-- 1 Host (Host1)  
+- Only one Host (Host1) is used.
 - No switch (basic standalone configuration)
 
 ---
