@@ -147,7 +147,7 @@ ovs-vsctl set port eth4 tag=20
 * VLAN 10 → Host1 and Host2
 * VLAN 20 → Host3 and Host4
 
-![Task VLAN Setup](2.2t.png)
+![Task VLAN Setup](2.2.png)
 
 ---
 
