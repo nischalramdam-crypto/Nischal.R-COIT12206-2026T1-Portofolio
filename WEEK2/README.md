@@ -9,7 +9,7 @@
 ---
 
 ## Project Overview
-This project demonstrates a basic TCP/IP configuration using GNS3. A single Linux host was added to the topology and configured with a static IP address. The configuration was verified through the console.
+This second weekly project demonstrates a basic TCP/IP configuration using GNS3. A single Linux host was added to the topology and configured with a static IP address. The configuration was verified through the console.
 
 ---
 
@@ -23,7 +23,7 @@ This project demonstrates a basic TCP/IP configuration using GNS3. A single Linu
 ---
 
 ## Network Topology
-- 1 Linux Host: Host1
+- used one Linux Host: Host1
 - Standalone host topology for basic IP configuration practice
 
 ---
@@ -77,9 +77,6 @@ iface eth0 inet static
 ---
 
 ## Learning Outcome
-This task helped me understand how to create a simple GNS3 project, assign a static IP address to a Linux host, and verify the network configuration using terminal commands.
+Overall from this weekly project helped me understand how to create a simple GNS3 project, and also assign a static IP address to a Linux host, and verify the network configuration using terminal commands.
 
 ---
-
-## Author
-**Nischal Ramdam**
