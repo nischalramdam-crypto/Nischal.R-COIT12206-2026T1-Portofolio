@@ -75,6 +75,8 @@ iface eth0 inet static
 ![Ping](ping-sucess-4to2.png)
 
 ---
+## Conclusion
+Through this project I learnt how to configure TCP/IP settings in GNS3. Configuring a static IP and verifying it via console commands helped me understand the impact of IP configuration on network connectivity. It helped me learn about IP configuration and troubleshooting.
 
 ## Learning Outcome
 Overall from this weekly project helped me understand how to create a simple GNS3 project, and also assign a static IP address to a Linux host, and verify the network configuration using terminal commands.
