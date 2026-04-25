@@ -8,7 +8,7 @@ In this week, I learned about how ARP works and how devices find each other in a
 
 ## Topology
 
-![Topology](topology1.png)
+![Topology](topology11.png)
 
 This network has two LANs connected using two routers. On the left side, there are HostA, HostB, HostC, and HostD. On the right side, there are Host1, Host2, Host3, and Host4.
 
