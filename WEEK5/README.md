@@ -4,6 +4,14 @@
 
 COIT12206 – TCP/IP Principles and Protocols
 
+Student Details
+
+Name: Nischal RAMDAM
+
+Student ID: 12316714
+
+Date: 01/04/2026
+
 ---
 
 # Project Overview
