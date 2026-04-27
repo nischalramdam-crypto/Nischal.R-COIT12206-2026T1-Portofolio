@@ -1,7 +1,7 @@
 # Week 6 – Address Resolution and Management
 Student Details
 
-Name: Nischal Ramdam
+Name: Nischal RAMDAM
 
 Student ID: 12316714
 
